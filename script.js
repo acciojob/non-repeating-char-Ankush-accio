@@ -1,7 +1,7 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
 	let freqObj = {}
-	if(str.length = 0){
+	if(!str){
 	return null
 	}
 	for (let i = 0; i < str.length; i++) {
